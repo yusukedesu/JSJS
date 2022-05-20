@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   color: #333;
   margin: 0 auto;
+  background-color: #f0f0f0;
  }
   
  h1,h2,h3,h4,h5,h6,p {
@@ -16,6 +17,7 @@ body {
   height: 60px;
   display: flex;
   padding: 0 60px;
+  background-color: #ffffff;
  }
  li{
   list-style: none;
@@ -34,16 +36,13 @@ body {
   display: flex;
   justify-content: space-around;
  }
-  
- .red{
-  background-color: red;
- }
+
  .show-lists{
   width: 200px;
   position: absolute;
   right: 370px;
   top: 70px;
-  background-color: #ffffff;
+  
 }
 .background-red{
  background-color: red ;
@@ -55,7 +54,7 @@ body {
 }
 .contents{
  height: 100vh;
- background-color: #f0f0f0;
+ 
 }
 .list-status{
  width: 230px;
